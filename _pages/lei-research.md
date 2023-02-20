@@ -6,7 +6,7 @@ author_profile: true
 
 ## Single-sided subduction (SSS): High trench retreat rate & back-arc extension
 
-Models can self-consistently generate a variety of trench retreat rate and induce different extent of extension within a homogeneous and mobile overriding plate. This is achieved by verying merely the age/thickness of the subducting slab and overriding plate under a well-tested rheology setup. slideshow gallery tested below 2nd round.
+Models can self-consistently generate a variety of trench retreat rate and induce different extent of extension within a homogeneous and mobile overriding plate. This is achieved by verying merely the age/thickness of the subducting slab and overriding plate under a well-tested rheology setup. slideshow gallery tested below 3rd round.
 
 <!-- Container for the image gallery -->
 <div class="container">
