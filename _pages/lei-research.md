@@ -59,8 +59,8 @@ body {
 /* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: 100.%;
+  left: 0px;
   color: white;
   font-size: 35px;
   cursor: pointer;
@@ -69,11 +69,15 @@ body {
 </head>
 <body>
 
-<div style="text-align:center">
+<div style="text-align:left">
   <h2>Single-sided subduction (SSS): High trench retreat rate & back-arc extension</h2>  
   <p>Models can self-consistently generate a variety of trench retreat rate and induce different extent of extension within a homogeneous and mobile overriding plate. This is achieved by verying merely the age/thickness of the subducting slab and overriding plate under a well-tested rheology setup. slideshow gallery tested: tabbed.</p>
 </div>
-
+  
+<div style="text-align:center">
+  <h4>Click on the images below:</h4>
+</div>
+  
 <!-- The four columns -->
 <div class="row">
   <div class="column">
@@ -105,7 +109,6 @@ function myFunction(imgs) {
 </body>
 </html>
 
-Click on the image to see its full size and caption.
 ## Dual inward dipping subduction (DIDS) & progressive weakening within the overriding plate
 
 Relative to SSS, DIDS can generate:  1) fixed boundary condition for the middle overriding plate 2) a stronger united upwelling mantle flow. Both effects
