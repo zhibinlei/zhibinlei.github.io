@@ -50,8 +50,8 @@ body {
 /* Expanding image text */
 #imgtext {
   position: absolute;
-  bottom: -20px;
-  left: 15px;
+  top: 100%;
+  left: 0px;
   color: black;
   font-size: 15px;
 }
@@ -59,8 +59,8 @@ body {
 /* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
-  top: 100.%;
-  left: 0px;
+  top: 10px;
+  right: 15px;
   color: white;
   font-size: 35px;
   cursor: pointer;
@@ -75,7 +75,7 @@ body {
 </div>
   
 <div style="text-align:center">
-  <h4>Click on the images below:</h4>
+  <h4>↓ View full-size images with captions on click below. ↓</h4>
 </div>
   
 <!-- The four columns -->
