@@ -109,7 +109,7 @@ function myFunction(imgs) {
 </body>
 </html>
 
-<br><br><br>
+<br>
 
 <html>
 <head>
@@ -218,7 +218,6 @@ function didsFunction(imgs) {
 </body>
 </html>
 
-
-
+<br>
 
 ## Inherited lateral lithospheric heterogeneities & localisation of plate weakening
