@@ -59,9 +59,9 @@ body {
 /* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
-  top: 10%;
-  right: 10%;
-  color: white;
+  top: 5%;
+  right: 5%;
+  color: grey;
   font-size: 35px;
   cursor: pointer;
 }
@@ -109,7 +109,8 @@ function myFunction(imgs) {
 </body>
 </html>
 
----
+
+
 
 <html>
 <head>
@@ -166,9 +167,9 @@ body {
 /* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
-  top: 10%;
-  right: 10%;
-  color: white;
+  top: 5%;
+  right: 5%;
+  color: grey;
   font-size: 35px;
   cursor: pointer;
 }
@@ -188,20 +189,20 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="/images/zhibinlei-dualsp-model_setup.png" alt="Model setup." style="width:100%" onclick="myFunction(this);">
+    <img src="/images/zhibinlei-dualsp-model_setup.png" alt="Model setup." style="width:100%" onclick="myFunction(dids);">
   </div>
   <div class="column">
-    <img src="/images/zhibinlei-dualsp-fixed trench + single sp.png" alt="Temporal evolution of horizontal velocity component for DIDS and  SSS." style="width:100%" onclick="myFunction(this);">
+    <img src="/images/zhibinlei-dualsp-fixed trench + single sp.png" alt="Temporal evolution of horizontal velocity component for DIDS and  SSS." style="width:100%" onclick="myFunction(dids);">
   </div>
   <div class="column">
-    <img src="/images/zhibinlei-adaptive_mesh-example.gif" alt="Animation of plate weakening (viscosity reduction) in a DIDS model." style="width:100%" onclick="myFunction(this);">
+    <img src="/images/zhibinlei-adaptive_mesh-example.gif" alt="Animation of plate weakening (viscosity reduction) in a DIDS model." style="width:100%" onclick="myFunction(dids);">
   <div class="column">
-    <img src="/images/zhibinlei-dualsp-dominant deformation_mechanism.png" alt="Dominant deformation analysis for a DIDS model that pull apart the overriding plate, indicating that dislocation and yielding plays the dominant role to weaken the overriding plate." style="width:100%" onclick="myFunction(this);">
+    <img src="/images/zhibinlei-dualsp-dominant deformation_mechanism.png" alt="Dominant deformation analysis for a DIDS model that pull apart the overriding plate, indicating that dislocation and yielding plays the dominant role to weaken the overriding plate." style="width:100%" onclick="myFunction(dids);">
   </div>
 </div>
 
 <div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <span onclick="dids.parentElement.style.display='none'" class="closebtn">&times;</span>
   <img id="expandedImg" style="width:100%">
   <div id="imgtext"></div>
 </div>
@@ -218,6 +219,7 @@ function myFunction(imgs) {
 </body>
 </html>
 
----
+
+
 
 ## Inherited lateral lithospheric heterogeneities & localisation of plate weakening
