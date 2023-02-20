@@ -14,7 +14,7 @@ Models can self-consistently generate a variety of trench retreat rate and induc
   <!-- Full-width images with number text -->
   <div class="mySlides">
     <div class="numbertext">1 / 3</div>
-      <img src="zhibinlei-SSS-thermal_state.png" style="width:100%">
+      <img src="/images/zhibinlei-SSS-thermal_state.png" style="width:100%">
       <div class="caption-container">
         <p>Comparison of thermal state for models with increasing trench retreat rate.</p>
       </div>
@@ -22,7 +22,7 @@ Models can self-consistently generate a variety of trench retreat rate and induc
 
   <div class="mySlides">
     <div class="numbertext">2 / 3</div>
-      <img src="zhibinlei-SSS-velocity_filter.png" style="width:100%">
+      <img src="/images/zhibinlei-SSS-velocity_filter.png" style="width:100%">
       <div class="caption-container">
         <p>Comparison of horizontal & vertical velocity component for models with increasing trench retreat rate, suggesting that non-uniform basal drag accounts for the rifting and spreading back-arc area.</p>
       </div>
@@ -30,7 +30,7 @@ Models can self-consistently generate a variety of trench retreat rate and induc
 
   <div class="mySlides">
     <div class="numbertext">3 / 3</div>
-      <img src="zhibinlei-SSS-contribution.png" style="width:100%">
+      <img src="/images/zhibinlei-SSS-contribution.png" style="width:100%">
       <div class="caption-container">
         <p>Contribution of this work relative to previous work.</p>
       </div>
