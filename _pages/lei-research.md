@@ -6,62 +6,112 @@ author_profile: true
 
 ## Single-sided subduction (SSS): High trench retreat rate & back-arc extension
 
-Models can self-consistently generate a variety of trench retreat rate and induce different extent of extension within a homogeneous and mobile overriding plate. This is achieved by verying merely the age/thickness of the subducting slab and overriding plate under a well-tested rheology setup. slideshow gallery tested below 1 round.
+Models can self-consistently generate a variety of trench retreat rate and induce different extent of extension within a homogeneous and mobile overriding plate. This is achieved by verying merely the age/thickness of the subducting slab and overriding plate under a well-tested rheology setup. slideshow gallery tested: tabbed.
 
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-<div class="slideshow-container">
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="/images/zhibinlei-SSS-thermal_state.png" style="width:100%">
-    <div class="caption">Comparison of thermal state for models with increasing trench retreat rate.</div>
-  </div>
+body {
+  margin: 0;
+  font-family: Arial;
+}
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="/images/zhibinlei-SSS-velocity_filter.png" style="width:100%">
-    <div class="caption">Comparison of horizontal & vertical velocity component for models with increasing trench retreat rate, suggesting that non-uniform basal drag accounts for the rifting and spreading back-arc area.</div>
-  </div>
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="/images/zhibinlei-SSS-contribution.png" style="width:100%">
-    <div class="caption">Contribution of this work relative to previous work.</div>
-  </div>
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
 
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2>Tabbed Image Gallery</h2>
+  <p>Click on the images below:</p>
 </div>
-<br>
+
+![zhibinlei-SSS-thermal_state.png](/images/zhibinlei-SSS-thermal_state.png)
+
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="/images/zhibinlei-SSS-thermal_state.png" alt="Comparison of thermal state for models with increasing trench retreat rate." style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="/images/zhibinlei-SSS-velocity_filter.png" alt="Comparison of horizontal & vertical velocity component for models with increasing trench retreat rate, suggesting that non-uniform basal drag accounts for the rifting and spreading back-arc area." style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="/images/zhibinlei-SSS-contribution.png" alt="Contribution of this work relative to previous work." style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
 
 <script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
 }
 </script>
 
+</body>
+</html>
 
 ## Dual inward dipping subduction (DIDS) & progressive weakening within the overriding plate
 
