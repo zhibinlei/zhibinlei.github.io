@@ -14,48 +14,42 @@ Models can self-consistently generate a variety of trench retreat rate and induc
   <!-- Full-width images with number text -->
   <div class="mySlides">
     <div class="numbertext">1 / 3</div>
-      <img src="/images/zhibinlei-SSS-thermal_state.png" style="width:100%">
-      <div class="caption-container">
-        <p>Comparison of thermal state for models with increasing trench retreat rate.</p>
-      </div>
+      <img src="/images/zhibinlei-SSS-thermal_state.png" style="width:100%" alt="Comparison of thermal state for models with increasing trench retreat rate.">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">2 / 3</div>
-      <img src="/images/zhibinlei-SSS-velocity_filter.png" style="width:100%">
-      <div class="caption-container">
-        <p>Comparison of horizontal & vertical velocity component for models with increasing trench retreat rate, suggesting that non-uniform basal drag accounts for the rifting and spreading back-arc area.</p>
-      </div>
+      <img src="/images/zhibinlei-SSS-velocity_filter.png" style="width:100%" alt="Comparison of horizontal & vertical velocity component for models with increasing trench retreat rate, suggesting that non-uniform basal drag accounts for the rifting and spreading back-arc area.">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">3 / 3</div>
-      <img src="/images/zhibinlei-SSS-contribution.png" style="width:100%">
-      <div class="caption-container">
-        <p>Contribution of this work relative to previous work.</p>
-      </div>
+      <img src="/images/zhibinlei-SSS-contribution.png" style="width:100%" alt="Contribution of this work relative to previous work.">
   </div>
 
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
   <!-- Thumbnail images -->
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="zhibinlei-SSS-thermal_state.png" style="width:100%" onclick="currentSlide(1)" alt="Comparison of thermal state for models with increasing trench retreat rate.">
+      <img class="demo cursor" src="/images/zhibinlei-SSS-thermal_state.png" style="width:100%" onclick="currentSlide(1)" alt="Comparison of thermal state for models with increasing trench retreat rate.">
     </div>
     <div class="column">
-      <img class="demo cursor" src="zhibinlei-SSS-velocity_filter.png" style="width:100%" onclick="currentSlide(2)" alt="Comparison of horizontal & vertical velocity component for models with increasing trench retreat rate, suggesting that non-uniform basal drag accounts for the rifting and spreading back-arc area.">
+      <img class="demo cursor" src="/images/zhibinlei-SSS-velocity_filter.png" style="width:100%" onclick="currentSlide(2)" alt="Comparison of horizontal & vertical velocity component for models with increasing trench retreat rate, suggesting that non-uniform basal drag accounts for the rifting and spreading back-arc area.">
     </div>
     <div class="column">
-      <img class="demo cursor" src="zhibinlei-SSS-contribution.png" style="width:100%" onclick="currentSlide(3)" alt="Contribution of this work relative to previous work.">
+      <img class="demo cursor" src="/images/zhibinlei-SSS-contribution.png" style="width:100%" onclick="currentSlide(3)" alt="Contribution of this work relative to previous work.">
     </div>
   </div>
 </div>
 
-
-<style>
 * {
   box-sizing: border-box;
 }
@@ -98,32 +92,81 @@ Models can self-consistently generate a variety of trench retreat rate and induc
   border-radius: 3px 0 0 3px;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  display: block;
+/* Number text (1/3 etc) */
+.numbertext {
   color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
+  background-color: #222;
+  padding: 2px 16px;
   color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
 
