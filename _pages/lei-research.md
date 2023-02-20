@@ -109,8 +109,7 @@ function myFunction(imgs) {
 </body>
 </html>
 
-
-
+<br><br><br>
 
 <html>
 <head>
@@ -189,15 +188,15 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="/images/zhibinlei-dualsp-model_setup.png" alt="Model setup." style="width:100%" onclick="myFunction(dids);">
+    <img src="/images/zhibinlei-dualsp-model_setup.png" alt="Model setup." style="width:100%" onclick="didsFunction(dids);">
   </div>
   <div class="column">
-    <img src="/images/zhibinlei-dualsp-fixed trench + single sp.png" alt="Temporal evolution of horizontal velocity component for DIDS and  SSS." style="width:100%" onclick="myFunction(dids);">
+    <img src="/images/zhibinlei-dualsp-fixed trench + single sp.png" alt="Temporal evolution of horizontal velocity component for DIDS and  SSS." style="width:100%" onclick="didsFunction(dids);">
   </div>
   <div class="column">
-    <img src="/images/zhibinlei-adaptive_mesh-example.gif" alt="Animation of plate weakening (viscosity reduction) in a DIDS model." style="width:100%" onclick="myFunction(dids);">
+    <img src="/images/zhibinlei-adaptive_mesh-example.gif" alt="Animation of plate weakening (viscosity reduction) in a DIDS model." style="width:100%" onclick="didsFunction(dids);">
   <div class="column">
-    <img src="/images/zhibinlei-dualsp-dominant deformation_mechanism.png" alt="Dominant deformation analysis for a DIDS model that pull apart the overriding plate, indicating that dislocation and yielding plays the dominant role to weaken the overriding plate." style="width:100%" onclick="myFunction(dids);">
+    <img src="/images/zhibinlei-dualsp-dominant deformation_mechanism.png" alt="Dominant deformation analysis for a DIDS model that pull apart the overriding plate, indicating that dislocation and yielding plays the dominant role to weaken the overriding plate." style="width:100%" onclick="didsFunction(dids);">
   </div>
 </div>
 
@@ -208,7 +207,7 @@ body {
 </div>
 
 <script>
-function myFunction(imgs) {
+function didsFunction(imgs) {
   var expandImg = document.getElementById("expandedImg");
   var imgText = document.getElementById("imgtext");
   expandImg.src = imgs.src;
