@@ -18,7 +18,7 @@ Updated in Dec, 2022
 2017 China Scholarship Council (CSC) Joint Scholarship with Cardiff University
 
 <h3>Code/Software experience</h3>
-Most of the numerical models in my research use high-performance computering (HPC) services. I am experienced in post-processing and visualizing large dataset.
+Most of the numerical models in my research use high-performance computering (HPC) services. I am experienced in post-processing and visualizing large dataset. Following are some code or software I have used before, and I am always happy to explore new research tools.
 * Fluidity
 * Paraview
 * Python
