@@ -20,8 +20,8 @@ body {
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 30%;
-  padding: 10px;
+  width: 25%;
+  padding: 5px;
 }
 
 /* Style the images inside the grid */
@@ -59,11 +59,12 @@ body {
 /* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
-  top: 5%;
-  right: 5%;
-  color: grey;
+  top: 2%;
+  right: 2%;
+  color: black;
   font-size: 35px;
   cursor: pointer;
+  opacity: 0.7; 
 }
 </style>
 </head>
