@@ -23,5 +23,7 @@ In my research, I enjoy working across disciplines: linking rheological, geochem
 The Virtual Outstanding Student and PhD candidate Presentation (vOSPP) Award at the EGU General Assembly, Geodynamics division (May 2021) for the presentation of 'Impact of trench retreat rate on initiating focused back-arc extension within a mobile overriding plate'.
 
 <h3>Outreach</h3>
-
 I am part of the EGU [geodynamics blog team](https://blogs.egu.eu/divisions/gd/about/) as an editor since mid-2022. You can find all my edited blogs at [https://blogs.egu.eu/divisions/gd/author/lei/](https://blogs.egu.eu/divisions/gd/author/lei/).
+
+<h3>Talks & Presentations</h3>
+2022·Ada Lovelace Workshop on Numerical Modelling of Mantle and Lithosphere Dynamics [[recording](/file/2022ALW-Z.Lei_Progressive weakening within the overriding plate during dual inward dipping subduction.mp4)] [[pdf](/file/2022ALW-Z.Lei_Progressive weakening within the overriding plate during dual inward dipping subduction.pdf)]
