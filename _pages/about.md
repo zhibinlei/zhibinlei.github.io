@@ -26,4 +26,4 @@ The Virtual Outstanding Student and PhD candidate Presentation (vOSPP) Award at 
 I am part of the EGU [geodynamics blog team](https://blogs.egu.eu/divisions/gd/about/) as an editor since mid-2022. You can find all my edited blogs at [https://blogs.egu.eu/divisions/gd/author/lei/](https://blogs.egu.eu/divisions/gd/author/lei/).
 
 <h3>Talks & Presentations</h3>
-2022·Ada Lovelace Workshop on Numerical Modelling of Mantle and Lithosphere Dynamics [[recording](/file/2022ALW-Z.Lei_Progressive weakening within the overriding plate during dual inward dipping subduction.mp4)] [[pdf](/file/2022ALW-Z.Lei_Progressive weakening within the overriding plate during dual inward dipping subduction.pdf)]
+2022·Ada Lovelace Workshop on Numerical Modelling of Mantle and Lithosphere Dynamics [[recording](/files/2022ALW-Z.Lei_Progressive weakening within the overriding plate during dual inward dipping subduction.mp4)] [[pdf](/files/2022ALW-Z.Lei_Progressive weakening within the overriding plate during dual inward dipping subduction.pdf)]
