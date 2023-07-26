@@ -16,6 +16,6 @@ The most up-to-date cv can can be found [here](/files/2023-1-Dr.Zhibin_Lei_CV.pd
 <br>
 <html>
 <body>
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=0e1633&w=500&t=tt&d=OYnPySuE42fvvKHQhSTG-mzMlU4Fg8qrx4NFW_1I9go&co=ffffff&ct=cdd4d9&cmo=3acc3a&cmn=ff5353'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=0e1633&w=300&t=tt&d=OYnPySuE42fvvKHQhSTG-mzMlU4Fg8qrx4NFW_1I9go&co=ffffff&ct=cdd4d9&cmo=3acc3a&cmn=ff5353'></script>
 </body>
 </html>
