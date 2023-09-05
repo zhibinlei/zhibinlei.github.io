@@ -6,7 +6,7 @@ redirect_from:
   - /resume
 ---
 
-The most up-to-date cv can can be found [here](/files/2023-1-Dr.Zhibin_Lei_CV.pdf). (updated in Jan, 2023)
+The most up-to-date cv can can be found [here](/files/2023-8-Dr.Zhibin_Lei_CV[research]-en.pdf). (updated in Aug, 2023)
 
 <h3>Education</h3>
 * 2022, Ph.D in Earth Science, Cardiff University
