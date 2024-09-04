@@ -13,6 +13,9 @@ The most up-to-date cv can can be found [here](/files/2023-8-Dr.Zhibin_Lei_CV[re
 * 2017, M.Sc. in Geology, China University of Petroleum, Beijing
 * 2014, B.En. in Geological Engineering, China University of Petroleum, Beijing
 
+<h3>Education</h3>
+* 2023-present, Postdoc, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, China
+
 <br>
 <html>
 <body>
