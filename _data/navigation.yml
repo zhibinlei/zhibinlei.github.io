@@ -1,8 +1,8 @@
 
 # main links links
 main:
-  - title: "Teaching"
-    url: /teaching/
+  - title: "About"
+    url: /about/
     
   - title: "Research"
     url: /research/
@@ -12,9 +12,6 @@ main:
         
   - title: "Outreach"
     url: /outreach/
-    
-  - title: "About"
-    url: /about/
-    
+        
   - title: "CV"
     url: /cv/
